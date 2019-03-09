@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 400px;
+    height: 300px;
+    margin: 20px auto;
+    border: 2px solid tomato;
+    text-align: center;
+    padding: 10px;
+    background-image: url("Capture.PNG");
+    background-size: cover;
+}
+
+.content input[type = button] {
+    padding: 1px 3px;
+}
+
+.content #result {
+    text-align: justify;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: yellow;
+}
