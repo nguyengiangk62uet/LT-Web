@@ -16,7 +16,7 @@
             if (spaceFirst > 0 && spaceLast > 0) {
                 result = "Họ: " + this.slice(0, spaceFirst) + enter;
                 result += "Họ đệm: " + this.slice(spaceFirst, spaceLast) + enter;
-                result += "Tên: " + this.slice(spaceLast) + enter;
+                result += "Tên: " + this.slice(spaceLast).trim() + enter;
                 result += new Date();
             } else {
                 result = "Dữ liệu không hợp lệ!";
